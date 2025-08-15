@@ -1,0 +1,6 @@
+// Next.js Konfigurationsdatei
+module.exports = {
+	// Standalone-Output für Docker-Deployment aktivieren
+	// Dies erstellt eine eigenständige Version der App mit allen Abhängigkeiten
+	output: "standalone",
+};
