@@ -1,5 +1,6 @@
 // Importiere Puppeteer für Web-Scraping
 import puppeteer from "puppeteer";
+import { execSync } from 'child_process';
 
 // POST-Route für URL-Parsing
 export async function POST(request) {
@@ -196,6 +197,14 @@ function displayJourneyInfo(journeyDetails) {
 	);
 }
 
+function getSystemChromium() {
+  try {
+    return execSync("which chromium").toString().trim();
+  } catch {
+    throw new Error("System Chromium not found in PATH");
+  }
+}
+
 async function getResolvedUrl(url) {
 	let browser;
 	try {
@@ -210,7 +219,9 @@ async function getResolvedUrl(url) {
 		};
 
 		// Only set executablePath in production/deployment
-		if (
+		if (process.env.USE_SYSTEM_CHROMIUM === "true") {
+            launchOptions.executablePath = getSystemChromium();
+        } else if (
 			process.env.NODE_ENV === "production" ||
 			process.env.USE_CHROMIUM_PATH === "true"
 		) {
