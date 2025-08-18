@@ -32,7 +32,7 @@ Join the [Discord community](https://discord.gg/eDZF75HG) to ask questions, shar
 
 ## How it works
 
-BetterBahn searches for train journeys and can use split ticketing to help you find cheaper options—though this is usually the exception, not the rule. For a detailed explanation and demonstration, check out the [YouTube video](https://www.youtube.com/watch?v=SxKtI8f5QTU&t=1s).
+BetterBahn searches for train journeys and can use split ticketing to help you find cheaper options—though this is usually the exception, not the rule. For a detailed explanation and demonstration, check out the [YouTube video](https://www.youtube.com/watch?v=SxKtI8f5QTU).
 
 ## About the Author
 
