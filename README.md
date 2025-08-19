@@ -26,9 +26,11 @@ You can also build and run BetterBahn as a Docker container. A `Dockerfile` is i
 
 This project is licensed under the Creative Commons Attribution-NonCommercial 4.0 International Public License (CC BY-NC 4.0). See the [LICENSE](./LICENSE) file for details.
 
-## Community
+## Community and Contribution
 
 Join the [Discord community](https://discord.gg/eDZF75HG) to ask questions, share feedback, and connect with other users and contributors.
+
+Want to contribute? Please read the [Code of Conduct](/CODE_OF_CONDUCT.md) and see the [Contributing Guide](/CONTRIBUTE.md) for details on how to get started.
 
 ## How it works
 
@@ -43,5 +45,3 @@ If you like what I do, consider supporting me: [ko-fi.com/lukasweihrauch](https:
 ---
 
 Made with ❤️ for train travelers in Germany.
-
----
